@@ -1,3 +1,5 @@
 # 4D prg 2324 spilka
 
-radek spilka jmeno tve
+git add program.cs
+git commit -m infoo
+git push
