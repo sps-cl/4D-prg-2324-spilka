@@ -1,3 +1,3 @@
 # 4D prg 2324 spilka
 
-cauky zabijaku
+radek spilka jmeno me
