@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Prvni\\Prvni.csproj",
+      "projectUniqueName": "d:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Kalkulacka\\Prvni.csproj",
       "projectName": "Prvni",
-      "projectPath": "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Prvni\\Prvni.csproj",
+      "projectPath": "d:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Kalkulacka\\Prvni.csproj",
       "packagesPath": "C:\\Users\\Radek\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Prvni\\obj\\",
+      "outputPath": "d:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Kalkulacka\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Radek\\AppData\\Roaming\\NuGet\\NuGet.Config"
