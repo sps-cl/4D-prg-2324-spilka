@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj": {}
+    "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "d:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj": {
+    "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "d:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj",
+        "projectPath": "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\Radek\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\obj\\",
+        "outputPath": "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Radek\\AppData\\Roaming\\NuGet\\NuGet.Config"
