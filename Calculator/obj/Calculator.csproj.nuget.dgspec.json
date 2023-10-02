@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj": {}
+    "r:\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj": {
+    "r:\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "r:\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj",
-        "packagesPath": "C:\\Users\\Radek\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Radek\\Documents\\GitHub\\Skola\\4D-prg-2324-spilka\\Calculator\\obj\\",
+        "projectPath": "r:\\4D-prg-2324-spilka\\Calculator\\Calculator.csproj",
+        "packagesPath": "C:\\Users\\radek.spilka\\.nuget\\packages\\",
+        "outputPath": "r:\\4D-prg-2324-spilka\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Radek\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\radek.spilka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
