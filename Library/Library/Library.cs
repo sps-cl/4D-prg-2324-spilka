@@ -22,7 +22,7 @@ namespace Library
         {
             for (int i = 0; i < items.Count; i++)
             {
-                if (items[i].Id == null)
+                if (items[i].Id != null)
                 {
                     if (items[i].Id == id && items[i].IsAvailable)
                     {

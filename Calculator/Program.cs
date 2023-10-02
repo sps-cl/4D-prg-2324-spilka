@@ -40,6 +40,12 @@
         }
     }
 
+    public class OpMultiply : IOperator {
+        public double Execute(int a, int b) { 
+            return a*b;
+        }
+    }
+
     public class CalculatorContext {
         private IOperator ioperator;
         

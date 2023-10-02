@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NotFoundException
+namespace Library.Exception;
 {
     internal class NotFoundException : Exception
     {
