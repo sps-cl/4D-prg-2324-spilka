@@ -21,8 +21,11 @@ namespace Program
                 if(_event_name == list_of_events[i].event_name){
                     list_of_events[i].list_of_attendees.Add(attendee);
                     list_of_events[i].attendee_role.Add(type.Name);
+                    return;
                 }
             }
+
+            Console.WriteLine("Event " + _event_name + ". Nejprve event vytvořte pak vytvořte hosty.");
         }
     }
 }
