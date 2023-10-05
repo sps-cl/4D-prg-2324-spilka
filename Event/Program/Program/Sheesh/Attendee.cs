@@ -15,9 +15,6 @@ namespace Program
         public Attendee(string attende_name, string event_name){
             this.attendee_name = attende_name;
             this.event_name = event_name;
-
-            EventManager event_manager = new EventManager();
-            event_manager.AddToEvent(event_name, this);
         }
     }
 }

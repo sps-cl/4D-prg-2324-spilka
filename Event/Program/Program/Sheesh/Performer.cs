@@ -10,7 +10,8 @@ namespace Program
     {
         public Performer(string attende_name, string event_name) : base(attende_name, event_name)
         {
-            
+            EventManager event_manager = new EventManager();
+            event_manager.AddToEvent(event_name, this, GetType());
         }
     }
 }

@@ -17,6 +17,9 @@ namespace Program
             Guest guest1 = new Guest("Radek Spilka", "Hodina programování");
             Guest guest2 = new Guest("Pepa Novak", "Hodina programování");
 
+            Performer performer1 = new Performer("The Beatles", "Hodina programování");
+
+
             event2.DisplayInfo();
 
             Console.ReadLine();
