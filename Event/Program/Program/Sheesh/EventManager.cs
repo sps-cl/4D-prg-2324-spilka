@@ -19,8 +19,12 @@ namespace Program
             for (int i = 0; i < list_of_events.Count; i++)
             {
                 if(_event_name == list_of_events[i].event_name){
+                    
+
                     list_of_events[i].list_of_attendees.Add(attendee);
                     list_of_events[i].attendee_role.Add(type.Name);
+
+
                     return;
                 }
             }

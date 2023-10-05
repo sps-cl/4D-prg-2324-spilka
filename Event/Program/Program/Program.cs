@@ -19,7 +19,6 @@ namespace Program
 
             Guest guest3 = new Guest("Pepa Novak", "shhessh");
 
-
             Performer performer1 = new Performer("The Beatles", "Hodina programování");
 
             event2.DisplayInfo();
