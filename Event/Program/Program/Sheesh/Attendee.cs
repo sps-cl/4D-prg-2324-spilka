@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,20 +9,15 @@ namespace Program
 {
     abstract class Attendee
     {
-        public string attende_name;
+        public string attendee_name;
         public string event_name;
 
         public Attendee(string attende_name, string event_name){
-            this.attende_name = attende_name;
+            this.attendee_name = attende_name;
             this.event_name = event_name;
 
-            CheckIfEventExists(event_name);
-        }
-
-        void CheckIfEventExists(string event_name){
-            
-            //zda event existuje
-            
+            EventManager event_manager = new EventManager();
+            event_manager.AddToEvent(event_name, this);
         }
     }
 }
