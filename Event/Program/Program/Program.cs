@@ -12,16 +12,19 @@ namespace Program
         static void Main(string[] args)
         {
             Event event1 = new Event("Svatba", "01.02.2009");
-            Event event2 = new Event("Hodina programování", "01.02.2009");
 
-            Guest guest1 = new Guest("Radek Spilka", "Hodina programování");
-            Guest guest2 = new Guest("Pepa Novak", "Hodina programování");
+            Guest guest1 = new Guest("Radek Spilka");
+            guest1.AddMeToEvent("Svatba");
+            Guest guest2 = new Guest("Imposter");
+            guest2.AddMeToEvent("Svatba");
+            Performer performer1 = new Performer("Jakub Not Talman", "Trash Talking");
+            performer1.AddMeToEvent("Svatba");
 
-            Guest guest3 = new Guest("Pepa Novak", "shhessh");
+            event1.DisplayInfo();
 
-            Performer performer1 = new Performer("The Beatles", "Hodina programování");
+            guest2.RemoveMeFromEvent("Svatba");
 
-            event2.DisplayInfo();
+            event1.DisplayInfo();
 
             Console.ReadLine();
         }

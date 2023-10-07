@@ -10,8 +10,7 @@ namespace Program
     {
         public string event_name;
         public string event_date;
-        public List<Attendee> list_of_attendees = new List<Attendee>();
-        public List<string> attendee_role = new List<string>();
+        public List<string> attendees_info = new List<string>();
 
         public Event(string event_name, string event_date)
         {
@@ -27,9 +26,9 @@ namespace Program
             Console.WriteLine("Jméno: "+event_name);
             Console.WriteLine("Datum: "+event_date);
             Console.WriteLine("Seznam účastníků: ");
-            for (int i = 0; i < list_of_attendees.Count; i++)
+            for (int i = 0; i < attendees_info.Count; i++)
             {
-                Console.WriteLine("    - "+list_of_attendees[i].attendee_name + " (" + attendee_role[i] + ")");
+                Console.WriteLine("    - "+attendees_info[i]);
             }
         }
     }
