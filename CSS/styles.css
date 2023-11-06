@@ -1,6 +1,17 @@
-h1{
-    font-size: 64px;
+h1, p {
+    font-size: 32px;
+    background-color: yellowgreen;
 }
-p{
-    background-color: aquamarine;
+
+div h2{
+    background-color: blue;
+}
+
+.notYellowBackground{
+    background-color: fuchsia;
+}
+
+#loremP{
+    font-size: 48px;
+    background-color: aqua;
 }
